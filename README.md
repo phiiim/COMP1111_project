@@ -1,46 +1,37 @@
-# ecommercewebsite
-
-# Files includes
-
+# Ecommerce website
+## About the website
+This is ecommerce websitw which is selll the coffee capsules
+## Files includes
 HTML and CSS 
-*vertuo.html
-*main.css
-*image floder
+* vertuo.html
+* main.css
+* image floder
 
 Server side JavaScript 
-*server.js
+* server.js
+* server.test.js
+
 Client side Javascript
+* main.js
 
-## How to execute the code
+Others
+* coffee.json
+* cart.json
+* .eslintrc.js
+* package.json
+* package-lock.json
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
+## How execute the code 
+### In the terminal/shell
+```
+npm install
+```
+```
+npm start
+```
+### run jest test
+```
+npm run
 ```
 
-## Usage
 
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
